@@ -246,7 +246,7 @@
 			}
 
 			/**
-			 * @commandpath bet open ["title"] ["option1, option2, option3"] [minimum bet] [maximum bet] [close timer] - Opens a bet with those options. 
+			 * @commandpath bet open ['title'] ['option1, option2, option3'] [minimum bet] [maximum bet] [close timer] - Opens a bet with those options. 
 			 */
 			if (action.equalsIgnoreCase('open')) {
 				open(sender, args[1], args[2], args[3], args[4], args[5]);
